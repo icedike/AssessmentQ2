@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AssessmentQ2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wx7-oC-jNt">
+                                <rect key="frame" x="20" y="528" width="280" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKk-sR-pjT">
+                                        <rect key="frame" x="0.0" y="0.0" width="135" height="30"/>
+                                        <color key="backgroundColor" red="0.93333333333333335" green="0.49411764705882355" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUt-pw-Itg">
+                                        <rect key="frame" x="145" y="0.0" width="135" height="30"/>
+                                        <color key="backgroundColor" red="0.40784313725490196" green="0.6470588235294118" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="uUt-pw-Itg" secondAttribute="trailing" id="2xR-Td-YWo"/>
+                                    <constraint firstItem="uUt-pw-Itg" firstAttribute="leading" secondItem="GKk-sR-pjT" secondAttribute="trailing" constant="10" id="E6e-bO-w3m"/>
+                                    <constraint firstItem="uUt-pw-Itg" firstAttribute="top" secondItem="wx7-oC-jNt" secondAttribute="top" id="EnV-Co-xb8"/>
+                                    <constraint firstItem="uUt-pw-Itg" firstAttribute="width" secondItem="GKk-sR-pjT" secondAttribute="width" id="KgV-vf-WwD"/>
+                                    <constraint firstAttribute="bottom" secondItem="GKk-sR-pjT" secondAttribute="bottom" id="P3S-hH-FNb"/>
+                                    <constraint firstItem="GKk-sR-pjT" firstAttribute="leading" secondItem="wx7-oC-jNt" secondAttribute="leading" id="s2U-Ko-NnN"/>
+                                    <constraint firstItem="GKk-sR-pjT" firstAttribute="top" secondItem="wx7-oC-jNt" secondAttribute="top" id="upO-hn-XWK"/>
+                                    <constraint firstAttribute="bottom" secondItem="uUt-pw-Itg" secondAttribute="bottom" id="y6j-L9-b1Z"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wx7-oC-jNt" secondAttribute="bottom" constant="10" id="2RJ-Xc-mzl"/>
+                            <constraint firstItem="wx7-oC-jNt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="EOC-n1-1Qy"/>
+                            <constraint firstAttribute="trailing" secondItem="wx7-oC-jNt" secondAttribute="trailing" constant="20" id="suI-p9-PC9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
